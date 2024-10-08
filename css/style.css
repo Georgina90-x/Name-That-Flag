@@ -130,6 +130,10 @@ h3 {
     }
 }
 
+.flags .flag-options {
+    margin-top: 2rem;
+}
+
 .flags .flag-options ul {
     display: flex;
     align-items: center;
@@ -201,3 +205,18 @@ h3 {
         width: 100%;
     }
 }
+
+@media(min-width: 768px) {
+    h1 {
+        font-size: 6rem;
+    }
+}
+
+@media(min-width: 991px) {
+    .flags .flag-options ul li:hover {
+        background-color: var(--black);
+        color: var(--white);
+    }
+}
+
+
