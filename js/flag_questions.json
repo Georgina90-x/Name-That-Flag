@@ -1,106 +1,106 @@
 [
     {
-        "img": "flag-australia.png",
+        "img": "/workspace/Name-That-Flag/img/flag-australia.png", 
         "options": ["New Zealand", "Germany", "Australia"],
         "right_answer": "Australia"
     },
     {
-        "img": "flag-belgium.png",
+        "img": "/workspace/Name-That-Flag/img/flag-belgium.png",
         "options": ["Germany", "Belgium", "Netherlands"],
         "right_answer": "Belgium"
     },
     {
-        "img": "flag-brazil.png",
+        "img": "/workspace/Name-That-Flag/img/flag-brazil.png",
         "options": ["Brazil", "Sweden", "Argentina"],
         "right_answer": "Brazil"
     },
     {
-        "img": "flag-canada.png",
+        "img": "img/flag-canada.png",
         "options": ["Canada", "Australia", "France"],
         "right_answer": "Canada"
     },
     {
-        "img": "flag-china.png",
+        "img": "img/flag-china.png",
         "options": ["Japan", "South Korea", "China"],
         "right_answer": "China"
     },
     {
-        "img": "flag-denmark.png",
+        "img": "img/flag-denmark.png",
         "options": ["Denmark", "Sweden", "Norway"],
         "right_answer": "Denmark"
     },
     {
-        "img": "flag-france.png",
+        "img": "img/flag-france.png",
         "options": ["Luxembourg", "Hungary", "France"],
         "right_answer": "France"
     },
     {
-        "img": "flag-germany.png",
+        "img": "img/flag-germany.png",
         "options": ["Belgium", "Germany", "Romania"],
         "right_answer": "Germany"
     },
     {
-        "img": "flag-india.png",
+        "img": "img/flag-india.png",
         "options": ["India", "Pakistan", "Spain"],
         "right_answer": "India"
     },
     {
-        "img": "flag-italy.png",
+        "img": "img/flag-italy.png",
         "options": ["Hungary", "Belarus", "Italy"],
         "right_answer": "Italy"
     },
     {
-        "img": "flag-japan.png",
+        "img": "img/flag-japan.png",
         "options": ["China", "South Korea", "Japan"],
         "right_answer": "Japan"
     },
     {
-        "img": "flag-mexico.png",
+        "img": "img/flag-mexico.png",
         "options": ["Brazil", "Hungary", "Mexico"],
         "right_answer": "Mexico"
     },
     {
-        "img": "flag-netherlands.png",
+        "img": "img/flag-netherlands.png",
         "options": ["Luxembourg", "Netherlands", "France"],
         "right_answer": "Netherlands"
     },
     {
-        "img": "flag-portugal.png",
+        "img": "img/flag-portugal.png",
         "options": ["Portugal", "Spain", "Andorra"],
         "right_answer": "Portugal"
     },
     {
-        "img": "flag-republic-of-ireland.png",
+        "img": "img/flag-republic-of-ireland.png",
         "options": ["Northern Ireland", "Republic of Ireland", "Ivory Coast"],
         "right_answer": "Republic of Ireland"
     },
     {
-        "img": "flag-russia.png",
+        "img": "img/flag-russia.png",
         "options": ["Serbia", "Croatia", "Russia"],
         "right_answer": "Russia"
     },
     {
-        "img": "flag-south-africa.png",
+        "img": "img/flag-south-africa.png",
         "options": ["South Africa", "Egypt", "Eritrea"],
         "right_answer": "South Africa"
     },
     {
-        "img": "flag-spain.png",
+        "img": "img/flag-spain.png",
         "options": ["Colombia", "Argentina", "Spain"],
         "right_answer": "Spain"
     },
     {
-        "img": "flag-sweden.png",
+        "img": "img/flag-sweden.png",
         "options": ["Norway", "Iceland", "Sweden"],
         "right_answer": "Sweden"
     },
     {
-        "img": "flag-united-kingdom.png",
+        "img": "img/flag-united-kingdom.png",
         "options": ["New Zealand", "United Kingdom", "Australia"],
         "right_answer": "United Kingdom"
     },
     {
-        "img": "flag-united-states.png",
+        "img": "img/flag-united-states.png",
         "options": ["Russia", "Germany", "United States"],
         "right_answer": "United States"
     }
