@@ -1,131 +1,239 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# [NAME THAT FLAG](https://github.com/Georgina90-x/Project-2 "Click to view the deployed site")
 
-Welcome Georgina Kidger,
+- Name That Flag is a simple website that has a game for users to test their knowledge of world flags.
+- Name That Flag has been designed for all users to be able to play the game with ease by implementing standardised structure.
+- Name That Flag is a fun game suitable for all ages of users.
+- Name That Flag shows a large flag and gives 4 options for the user to select their answer.
+- Name That Flag keeps track of the users score out of a total of 10.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Table of Contents
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+<details>
+<summary>Click here for Table of Contents</summary>
 
-## Gitpod Reminders
+[Mockup Screenshots](#mockup-screenshots)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+[UX](#ux)
 
-`python3 -m http.server`
+- [Colour Scheme](#colour-scheme)
+- [Typography](#typography)
 
-A blue button should appear to click: _Make Public_,
+[User Stories](#user-stories)
 
-Another blue button should appear to click: _Open Browser_.
+- [New site Users](#new-site-users)
+- [Returning Site Users](#returning-site-users)
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+[Wireframes](#wireframes)
 
-A blue button should appear to click: _Make Public_,
+- [Mobile Wireframes](#mobile-wireframes)
+- [Tablet Wireframes](#tablet-wireframes)
+- [Desktop Wireframes](#desktop-wireframes)
 
-Another blue button should appear to click: _Open Browser_.
+[Features](#features)
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- [Existing Features](#existing-features)
+- [Future Features](#future-features)
 
-To log into the Heroku toolbelt CLI:
+[Testing](#testing)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+[Deployment](#deployment)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+- [Local Deployment](#local-deployment)
 
-### Connecting your Mongo database
+  - [Cloning](#cloning)
+  - [Forking](#forking)
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+- [Local vs Deployment](#local-vs-deployment)
 
-------
+[Credits](#credits)
 
-## Release History
+- [Content and Code](#content-and-code)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- [Media](#media)
 
-**June 18, 2024,** Add Mongo back into template
+- [Acknowledgments](#acknowledgements)
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+</details>
 
-**May 28 2024:** Fix Mongo and Links installs
+##  Wireframes
 
-**April 26 2024:** Update node version to 16
+I have provided a screenshot of an initial design idea for the layout of Name That Flag.
 
-**September 20 2023:** Update Python version to 3.9.17.
+| Screenshot 1 | Screenshot 2 |
+| :---: | :---: |
+| ![screenshot](images/wireframe.jpg) | ![screenshot](documentation/mockups/Am%20I%20Responsive2.png) |
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## UX
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- The wireframe design of Name That Flag demonstrates its suitability for both mobile and desktop design.
+- Name That Flag has a block colour background that does not distract or visually impair users from being able to see the flags as they are intended.
+- It is clear to the user that Name That Flag is a game and that they are given options to select the answer that identifies the flag.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### Colour Scheme
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- As Name That Flag is a game that involves flags with a number of colours, it was important for the background to be unobtrusive and allowed to show the flags correctly to avoid any doubt or confusion for the user.
+- The colours used are as follows:-
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- `#171212` licorice used for primary text.
+- `#8D99AE` cool grey used for primary highlights such as borders.
+- `#fafafa` used for secondary text.
+- `#FFFFFF` white used for a clean and crisp background to not obscure the colours of the flags.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+I used [coolors.co](https://coolors.co/171212-8d99ae-ffffff-473198-090c9b) to generate my colour palette, I locked in licorice and white as I knew I wanted these as the main colours to the site and then ran through the simulations to generate alternative colours that may complement as contrast but I knew that a majority of the site would be white with black text.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+<details>
+<summary>Click for Coolors screenshot</summary>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+![screenshot](images/coolors-screenshot.png)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+</details><br>
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Typography
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- I used the Google Font called 'Nunito' for the Name That Flag site.
+- As a key part of the game was for users to read the options available to them, it was imperitive that a clean legible font was used suitable for all users to clearly read the text on the website especially when using a mobile device.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- [Nunito](https://fonts.google.com/specimen/Nunito) was used for all text within the site.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- [Font Awesome](https://fontawesome.com) icons were used to provide inconography to the website where appropriate.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## User Stories
 
-------
+### New Site Users
 
-## FAQ about the uptime script
+- As a new site user, I would like to know the purpose of the site, so I understand why I might use it.
+- As a new site user, I would like to be able to clearly see the flag and it's answers so I can make an informed choice.
+- As a new site user, I would like to be able to select my answer with ease and be told if I am correct or not.
+- As a new site user, I would like to be able to keep a track of my score as a way as determining my success.
+- As a new site user, I would like to be able to restart the game again in order to improve my score.
 
-**Why have you added this script?**
+### Returning Site Users
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- As a returning site user, I would like to be met with the game in the format I am accustommed to.
+- As a returning site user, I would like to be challenged to questions I have not seen before.
 
-**How will this affect me?**
+## Features
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Existing Features
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+| Feature | Description | Screenshot |
+| :---: | :---: | :---: |
+| **About Name That Flag** | Although 'Name That Flag' should be obvious upon accessing the site, I wanted to create a little description for users so there was no doubt what the site was for. | ![screenshot](documentation/features/modal-button.png) |
+| **Name That Flag Game Area** | The game is designed to be viewed in one screen. For example, on a mobile sized screen you can see the flag, the answer options and the score without having to scroll. | ![screenshot](documentation/features/modal.png) |
+| **Answer Buttons** | The buttons are designed in a way that the user knows they are to click on them to select their answer. | ![screenshot](documentation/features/input-box.png) |
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
 
-**So….?**
+### Future Features
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+- A high score table
+  - A feature that will keep a record of the users previous scores in a top 10 format.
+- More flag questions 
+  - An update that can further challenge users. their knowledge of flags.
+- Multiplayer mode
+  - A feature that will allow users to play against eachother to see who knows their flags more.
 
-**Can I opt out?**
+## Tools & Technologies Used
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+- [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
+- [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
+- [CSS :root variables](https://www.w3schools.com/css/css3_variables.asp) used for reusable styles throughout the site.
+- [CSS Buttons](https://www.w3schools.com/css/css3_buttons.asp) used for creating styled buttons.
+- [JavaScript](https://www.javascript.com) used for user interaction on the site.
+- [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
+- [GitHub](https://github.com) used for secure online code storage.
+- [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
+- [VSCode](https://code.visualstudio.com/) used for local IDE for development.
+- [Google Fonts](https://fonts.google.com/) used to search a suitable font and obtain a download link for that font.
+- [Font Awesome](https://fontawesome.com/) used to add GitHub icon to the footer and modal and search icon to the search button.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+## Testing
 
-**Anything more?**
+For all testing, please refer to the [TESTING.md](TESTING.md) file.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+## Deployment
 
----
+The site was deployed to GitHub Pages. The steps to deploy are as follows:
 
-Happy coding!
+- In the [GitHub repository](https://github.com/Georgina90-x/Project-2), navigate to the Settings tab.
+- From the source section drop-down menu, select the **Main** Branch, then click "Save".
+- The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here]( https://georgina90-x.github.io/Project-2/).
+
+### Local Deployment
+
+This project can be cloned or forked in order to make a local copy on your own system.
+
+#### Cloning
+
+You can clone the repository by following these steps:
+
+1. Go to the [GitHub repository](https://github.com/Georgina90-x/Project-2).
+2. Locate the Code button above the list of files and click it.
+3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard.
+4. Open Git Bash or Terminal.
+5. Change the current working directory to the one where you want the cloned directory.
+6. In your IDE Terminal, type the following command to clone my repository:
+    - `git clone https://github.com/Georgina90-x/Project-2`
+7. Press Enter to create your local clone.
+
+### Local vs Deployment
+
+There are no notable differences between my local developed site and the GitHub pages deployed site.
+
+## Credits
+
+The following are credits to various people and technologies that have directly or otherwise assisted in the creation of the Your Weather site.
+
+### Content and Code
+
+| Source | Location | Notes |
+| --- | --- | --- |
+| [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) | Main page | interactive pop-up (modal) for the about section |
+| [W3Schools](https://www.w3schools.com/howto/howto_css_switch.asp) | Main page | interactive toggle switch |
+| [YouTube](https://www.youtube.com/watch?v=WZNG8UomjSI&t=1783s) | Main page | a source to get an idea of how to lay out the page |
+| [Wikipedia](https://en.wikipedia.org/wiki/List_of_short_place_names) | Javascript | helped in determining whether name validation is needed or not |
+| [United Kingdom Flag](https://es.wikipedia.org/wiki/Reino_Unido#/media/Archivo:Flag_of_the_United_Kingdom_(1-2).svg) | Flag
+| [France Flag](https://es.wikipedia.org/wiki/Francia#/media/Archivo:Flag_of_France_(1794%E2%80%931815,_1830%E2%80%931974,_2020%E2%80%93present).svg) | Flag
+| [Germany Flag](https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg) | Flag
+| [Netherlands Flag](https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg) | Flag
+| [Sweden Flag](https://en.wikipedia.org/wiki/Sweden#/media/File:Flag_of_Sweden.svg) | Flag
+| [Denmark Flag](https://en.wikipedia.org/wiki/Denmark#/media/File:Flag_of_Denmark.svg) | Flag
+| [Italy Flag](https://en.wikipedia.org/wiki/Italy#/media/File:Flag_of_Italy.svg) | Flag
+| [Spain Flag](https://en.wikipedia.org/wiki/Spain#/media/File:Bandera_de_Espa%C3%B1a.svg) | Flag
+| [Portugal Flag](https://en.wikipedia.org/wiki/Portugal#/media/File:Flag_of_Portugal.svg) | Flag
+| [Belgium Flag](https://en.wikipedia.org/wiki/Belgium#/media/File:Flag_of_Belgium.svg) | Flag
+| [United States Flag](https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg) | Flag
+| [China Flag](https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg) | Flag
+| [South Africa Flag](https://en.wikipedia.org/wiki/South_Africa#/media/File:Flag_of_South_Africa.svg) | Flag
+| [India Flag](https://en.wikipedia.org/wiki/India#/media/File:Flag_of_India.svg) | Flag
+| [Russia Flag](https://en.wikipedia.org/wiki/Russia#/media/File:Flag_of_Russia.svg) | Flag
+| [Republic of Ireland Flag](https://en.wikipedia.org/wiki/Republic_of_Ireland#/media/File:Flag_of_Ireland.svg) | Flag
+| [Brazil Flag](https://en.wikipedia.org/wiki/Brazil#/media/File:Flag_of_Brazil.svg) | Flag
+| [Canada Flag](https://en.wikipedia.org/wiki/Canada#/media/File:Flag_of_Canada_(Pantone).svg) | Flag
+| [Japan Flag](https://en.wikipedia.org/wiki/Japan#/media/File:Flag_of_Japan.svg) | Flag
+| [Mexico Flag](https://en.wikipedia.org/wiki/Mexico#/media/File:Flag_of_Mexico.svg) | Flag
+| [Australia Flag](https://en.wikipedia.org/wiki/Australia#/media/File:Flag_of_Australia_(converted).svg) | Flag
+
+
+
+
+
+
+
+
+
+
+
+
+### Media
+
+| Source | Location | Type | Notes |
+| --- | --- | --- | --- |
+| [Unsplash](https://source.unsplash.com/random?landscape) | Main changing background | image | Landscape image selection |
+
+### Acknowledgements
+
+- I would like to thank my Code Institute mentor, [Chris Quinn](https://github.com/10xOXR) for their support throughout the development of this project.
+- I would like to thank [Code Institute](https://codeinstitute.net) for giving me the opportunity to complete the 4P course.
+- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support and general information that helps with my studies.
