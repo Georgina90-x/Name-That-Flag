@@ -20,7 +20,7 @@
         "right_answer": "Canada"
     },
     {
-        "img": "flag-china.png",
+        "img": "flag-china.svg.png",
         "options": ["Japan", "South Korea", "China"],
         "right_answer": "China"
     },
@@ -100,7 +100,7 @@
         "right_answer": "United Kingdom"
     },
     {
-        "img": "flag-united-states.png",
+        "img": "flag-united-states.svg.png",
         "options": ["Russia", "Germany", "United States"],
         "right_answer": "United States"
     }
