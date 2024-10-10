@@ -234,6 +234,5 @@ The following are credits to various people and technologies that have directly 
 
 ### Acknowledgements
 
-- I would like to thank my Code Institute mentor, [Chris Quinn](https://github.com/10xOXR) for their support throughout the development of this project.
-- I would like to thank [Code Institute](https://codeinstitute.net) for giving me the opportunity to complete the 4P course.
-- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support and general information that helps with my studies.
+- I would like to thank my tutor Jonathan Jacobson and my classmates Ethan Peters and Tyrone Tuazon for their assistance and support during this project.
+- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for being an awesome and responsive support system during a unit I found incredibly challenging.
