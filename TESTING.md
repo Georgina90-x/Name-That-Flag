@@ -88,7 +88,7 @@ I have tested my deployed project using the [WAVE](https://wave.webaim.org/) web
 | :---: | :---: |
 | As a new site user, I would like to know the purpose of the site, so I understand why I might use it. | ![screenshot](img/screenshots/user-purpose.png) |
 | As a new site user, I would like to be able to clearly see the flag and it's answers so I can make an informed choice. | ![screenshot](img/screenshots/user-purpose.png) |
-| As a new site user, I would like to be able to select my answer with ease and be told if I am correct or not. | ![screenshot](img/screenshots/user-success-fail.MOV) |
+| As a new site user, I would like to be able to select my answer with ease and be told if I am correct or not. | ![screenshot](img/screenshots/user-success-fail.mp4) |
 | As a new site user, I would like to be able to keep a track of my score as a way as determining my success. | ![screenshot](img/screenshots/user-score.png) |
 | As a new site user, I would like to be able to restart the game again in order to improve my score. | ![screenshot](img/screenshots/user-restart.png) |
 
