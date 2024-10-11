@@ -103,6 +103,202 @@
         "img": "flag-united-states.svg.png",
         "options": ["Russia", "Germany", "United States"],
         "right_answer": "United States"
+    },
+    {
+        "img": "flag-albania.png",
+        "options": ["Albania", "Morocco", "Ghana"],
+        "right_answer": "Albania"
+    },
+    {
+        "img": "flag-algeria.png",
+        "options": ["Poland", "Algeria", "Scotland"],
+        "right_answer": "Algeria"
+    },
+    {
+        "img": "flag-andorra.svg.png",
+        "options": ["Lebanon", "Andorra", "Sweden"],
+        "right_answer": "Andorra"
+    },
+    {
+        "img": "flag-argentina.png",
+        "options": ["Uruguay", "Argentina", "Brazil"],
+        "right_answer": "Argentina"
+    },
+    {
+        "img": "flag-belize.png",
+        "options": ["Mexico", "Spain", "Belize"],
+        "right_answer": "Belize"
+    },
+    {
+        "img": "flag-bolivia.png",
+        "options": ["Bolivia", "Ecuador", "Colombia"],
+        "right_answer": "Bolivia"
+    },
+    {
+        "img": "flag-burundi.png",
+        "options": ["Malaysia", "Japan", "Burundi"],
+        "right_answer": "Burundi"
+    },
+    {
+        "img": "flag-cameroon.png",
+        "options": ["Kenya", "Congo", "Cameroon"],
+        "right_answer": "Cameroon"
+    },
+    {
+        "img": "flag-chile.png",
+        "options": ["Panama", "Costa Rica", "Chile"],
+        "right_answer": "Chile"
+    },
+    {
+        "img": "flag-colombia.png",
+        "options": ["Venezuela", "Colombia", "Ecuador"],
+        "right_answer": "Colombia"
+    },
+    {
+        "img": "flag-costa-rica.png",
+        "options": ["Costa Rica", "Cuba", "Dominica"],
+        "right_answer": "Costa Rica"
+    },
+    {
+        "img": "flag-cuba.png",
+        "options": ["Suriname", "Cuba", "Brazil"],
+        "right_answer": "Cuba"
+    },
+    {
+        "img": "flag-ecuador.png",
+        "options": ["Ecuador", "Ghana", "Australia"],
+        "right_answer": "Ecuador"
+    },
+    {
+        "img": "flag-egypt.png",
+        "options": ["Saudi Arabia", "Egypt", "South Africa"],
+        "right_answer": "Egypt"
+    },
+    {
+        "img": "flag-el-salvador.png",
+        "options": ["Nicaragua", "Honduras", "El Salvador"],
+        "right_answer": "El Salvador"
+    },
+    {
+        "img": "flag-ghana.png",
+        "options": ["Ghana", "Kenya", "Ivory Coast"],
+        "right_answer": "Ghana"
+    },
+    {
+        "img": "flag-guatemala.png",
+        "options": ["Guatemala", "Nicaragua", "Belize"],
+        "right_answer": "Guatemala"
+    },
+    {
+        "img": "flag-guyana.png",
+        "options": ["Suriname", "Guyana", "French Guiana"],
+        "right_answer": "Guyana"
+    },
+    {
+        "img": "flag-honduras.png",
+        "options": ["Honduras", "Cuba", "Mexico"],
+        "right_answer": "Honduras"
+    },
+    {
+        "img": "flag-hungary.png",
+        "options": ["Italy", "Hungary", "Romania"],
+        "right_answer": "Hungary"
+    },
+    {
+        "img": "flag-kazakhstan.png",
+        "options": ["Turkmenistan", "Pakistan", "Kazakhstan"],
+        "right_answer": "Kazakhstan"
+    },
+    {
+        "img": "flag-kenya.png",
+        "options": ["Kenya", "The Gambia", "Egypt"],
+        "right_answer": "Kenya"
+    },
+    {
+        "img": "flag-luxembourg.png",
+        "options": ["Netherlands", "Luxembourg", "Russia"],
+        "right_answer": "Luxembourg"
+    },
+    {
+        "img": "flag-mongolia.png",
+        "options": ["Mongolia", "Kazakhstan", "Georgia"],
+        "right_answer": "Mongolia"
+    },
+    {
+        "img": "flag-morocco.png",
+        "options": ["United Arab Emirates", "Morocco", "Algeria"],
+        "right_answer": "Morocco"
+    },
+    {
+        "img": "flag-nicaragua.png",
+        "options": ["Nicaragua", "Guatemala", "El Salvador"],
+        "right_answer": "Nicaragua"
+    },
+    {
+        "img": "flag-pakistan.png",
+        "options": ["India", "Japan", "Pakistan"],
+        "right_answer": "Pakistan"
+    },
+    {
+        "img": "flag-panama.png",
+        "options": ["Costa Rica", "Panama", "Mexico"],
+        "right_answer": "Panama"
+    },
+    {
+        "img": "flag-papua-new-guinea.png",
+        "options": ["Equitorial Guinea", "Ghana", "Papua New Guinea"],
+        "right_answer": "Papua New Guinea"
+    },
+    {
+        "img": "flag-paraguay.png",
+        "options": ["Uruguay", "Paraguay", "Chile"],
+        "right_answer": "Paraguay"
+    },
+    {
+        "img": "flag-peru.png",
+        "options": ["Peru", "Poland", "Georgia"],
+        "right_answer": "Peru"
+    },
+    {
+        "img": "flag-saudi-arabia.png",
+        "options": ["United Arab Emirates", "Pakistan", "Saudi Arabia"],
+        "right_answer": "Saudi Arabia"
+    },
+    {
+        "img": "flag-suriname.png",
+        "options": ["Scotland", "Hungary", "Suriname"],
+        "right_answer": "Suriname"
+    },
+    {
+        "img": "flag-the-gambia.png",
+        "options": ["South Africa", "The Gambia", "Ivoy Coast"],
+        "right_answer": "The Gambia"
+    },
+    {
+        "img": "flag-turkmenistan.png",
+        "options": ["China", "Mongolia", "Turkmenistan"],
+        "right_answer": "Turkmenistan"
+    },
+    {
+        "img": "flag-ukraine.png",
+        "options": ["Ukraine", "Serbia", "Croatia"],
+        "right_answer": "Ukraine"
+    },
+    {
+        "img": "flag-uruguay.png",
+        "options": ["Argentina", "Uruguay", "Paraguay"],
+        "right_answer": "Uruguay"
+    },
+    {
+        "img": "flag-vatican-city.png",
+        "options": ["Italy", "Vatican City", "San Marino"],
+        "right_answer": "Vatican City"
+    },
+    {
+        "img": "flag-venezuela.png",
+        "options": ["Colombia", "Ecuador", "Venezuela"],
+        "right_answer": "Venezuela"
     }
+
 
 ]
