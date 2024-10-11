@@ -208,6 +208,49 @@ The following are credits to various people and technologies that have directly 
 | [Japan Flag](https://en.wikipedia.org/wiki/Japan#/media/File:Flag_of_Japan.svg) | Flag
 | [Mexico Flag](https://en.wikipedia.org/wiki/Mexico#/media/File:Flag_of_Mexico.svg) | Flag
 | [Australia Flag](https://en.wikipedia.org/wiki/Australia#/media/File:Flag_of_Australia_(converted).svg) | Flag
+| [Albania Flag]( https://es.wikipedia.org/wiki/Primera_Rep%C3%BAblica_de_Albania#/media/Archivo:Flag_of_Albanian_Provisional_Government_(1912-1914).svg) | Flag
+| [ Algeria Flag]( https://es.wikipedia.org/wiki/Argelia#/media/Archivo:Flag_of_Algeria.svg)| Flag
+| [ Andorra Flag]( https://es.wikipedia.org/wiki/Andorra#/media/Archivo:Flag_of_Andorra.svg )| Flag
+| [ Ukraine Flag]( https://es.wikipedia.org/wiki/Ucrania#/media/Archivo:Flag_of_Ukraine.svg )| Flag
+| [ Papua New Guinea Flag]( https://es.wikipedia.org/wiki/Pap%C3%BAa_Nueva_Guinea#/media/Archivo:Flag_of_Papua_New_Guinea.svg)| Flag
+| [ Morocco Flag]( https://es.wikipedia.org/wiki/Marruecos#/media/Archivo:Flag_of_Morocco.svg)| Flag
+| [ The Gambia Flag]( ) https://es.wikipedia.org/wiki/Gambia#/media/Archivo:Flag_of_The_Gambia.svg| Flag
+| [ Ghana Flag]( https://es.wikipedia.org/wiki/Ghana#/media/Archivo:Flag_of_Ghana.svg )| Flag
+| [ Argentina Flag]( https://es.wikipedia.org/wiki/Argentina#/media/Archivo:Flag_of_Argentina.svg)| Flag
+| [ Burundi Flag]( https://es.wikipedia.org/wiki/Burundi#/media/Archivo:Flag_of_Burundi.svg)| Flag
+| [ Vatican City Flag]( https://es.wikipedia.org/wiki/Ciudad_del_Vaticano#/media/Archivo:Flag_of_Vatican_City_(2023%E2%80%93present).svg )| Flag
+| [ Mongolia Flag]( https://es.wikipedia.org/wiki/Mongolia#/media/Archivo:Flag_of_Mongolia.svg)| Flag
+| [ Kazakhstan Flag]( https://es.wikipedia.org/wiki/Kazajist%C3%A1n#/media/Archivo:Flag_of_Kazakhstan.svg)| Flag
+| [ Turkmenistan Flag]( https://es.wikipedia.org/wiki/Turkmenist%C3%A1n#/media/Archivo:Flag_of_Turkmenistan.svg)| Flag
+| [ Cameroon Flag]( https://es.wikipedia.org/wiki/Camer%C3%BAn#/media/Archivo:Flag_of_Cameroon.svg)| Flag
+| [ Montenegro Flag]( https://es.wikipedia.org/wiki/Montenegro#/media/Archivo:Flag_of_Montenegro.svg )| Flag
+| [ Belize Flag]( https://es.wikipedia.org/wiki/Belice#/media/Archivo:Flag_of_Belize.svg)| Flag
+| [ Guatemala Flag]( https://es.wikipedia.org/wiki/Guatemala#/media/Archivo:Flag_of_Guatemala.svg )| Flag
+| [ Honduras Flag]( https://es.wikipedia.org/wiki/Honduras#/media/Archivo:Flag_of_Honduras.svg)| Flag
+| [ El Salvador Flag]( https://es.wikipedia.org/wiki/El_Salvador#/media/Archivo:Flag_of_El_Salvador.svg)| Flag
+| [ Nicaragua Flag]( https://es.wikipedia.org/wiki/Nicaragua#/media/Archivo:Flag_of_Nicaragua.svg)| Flag
+| [ Costa Rica Flag]( https://es.wikipedia.org/wiki/Costa_Rica#/media/Archivo:Flag_of_Costa_Rica.svg)| Flag
+| [ Panama Flag]( https://es.wikipedia.org/wiki/Panam%C3%A1#/media/Archivo:Flag_of_Panama.svg)| Flag
+| [ Colombia Flag]( https://es.wikipedia.org/wiki/Colombia#/media/Archivo:Flag_of_Colombia.svg)| Flag
+| [ Ecuador Flag]( https://es.wikipedia.org/wiki/Ecuador#/media/Archivo:Flag_of_Ecuador.svg)| Flag
+| [ Venezuela Flag]( https://es.wikipedia.org/wiki/Venezuela#/media/Archivo:Flag_of_Venezuela.svg )| Flag
+| [ Bolivia Flag]( https://es.wikipedia.org/wiki/Bolivia#/media/Archivo:Flag_of_Bolivia.svg)| Flag
+| [ Peru Flag]( https://es.wikipedia.org/wiki/Per%C3%BA#/media/Archivo:Flag_of_Peru.svg)| Flag
+| [ Chile Flag]( https://es.wikipedia.org/wiki/Chile#/media/Archivo:Flag_of_Chile.svg )| Flag
+| [ Uruguay Flag]( https://es.wikipedia.org/wiki/Uruguay#/media/Archivo:Flag_of_Uruguay.svg )| Flag
+| [ Paraguay Flag]( https://es.wikipedia.org/wiki/Paraguay#/media/Archivo:Flag_of_Paraguay.svg)| Flag
+| [ Suriname Flag]( https://es.wikipedia.org/wiki/Surinam#/media/Archivo:Flag_of_Suriname.svg )| Flag
+| [ Guyana Flag]( https://es.wikipedia.org/wiki/Guyana#/media/Archivo:Flag_of_Guyana.svg )| Flag
+| [ Cuba Flag]( https://es.wikipedia.org/wiki/Cuba#/media/Archivo:Flag_of_Cuba.svg)| Flag
+| [ Hungary Flag]( https://en.wikipedia.org/wiki/Hungary#/media/File:Flag_of_Hungary.svg )| Flag
+| [ Pakistan Flag]( https://en.wikipedia.org/wiki/Pakistan#/media/File:Flag_of_Pakistan.svg)| Flag
+| [ Saudi Arabia Flag]( https://en.wikipedia.org/wiki/Saudi_Arabia#/media/File:Flag_of_Saudi_Arabia.svg)| Flag
+| [ Egypt Flag]( https://en.wikipedia.org/wiki/Egypt#/media/File:Flag_of_Egypt.svg)| Flag
+| [ Kenya Flag]( https://en.wikipedia.org/wiki/Kenya#/media/File:Flag_of_Kenya.svg)| Flag
+| [ Luxembourg Flag]( https://en.wikipedia.org/wiki/Luxembourg#/media/File:Flag_of_Luxembourg.svg)| Flag
+
+
+
 
 ### Acknowledgements
 
