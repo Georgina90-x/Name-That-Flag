@@ -3,8 +3,8 @@
 - Name That Flag is a simple website that has a game for users to test their knowledge of world flags.
 - Name That Flag has been designed for all users to be able to play the game with ease by implementing standardised structure.
 - Name That Flag is a fun game suitable for all ages of users.
-- Name That Flag shows a large flag and gives 4 options for the user to select their answer.
-- Name That Flag keeps track of the users score out of a total of 10.
+- Name That Flag shows a large flag and gives 3 options for the user to select their answer.
+- Name That Flag has a total of 10 questions to answer, each time randomised.
 
 ## Table of Contents
 
@@ -59,9 +59,9 @@
 
 I have provided a screenshot of an initial design idea for the layout of Name That Flag.
 
-| Screenshot 1 | Screenshot 2 |
-| :---: | :---: |
-| ![screenshot](images/wireframe.jpg) | ![screenshot](documentation/mockups/Am%20I%20Responsive2.png) |
+| Screenshot |
+| :---: |
+| ![screenshot](img/screenshots/wireframe.jpg) |
 
 ## UX
 
@@ -75,16 +75,19 @@ I have provided a screenshot of an initial design idea for the layout of Name Th
 - The colours used are as follows:-
 
 - `#171212` licorice used for primary text.
-- `#8D99AE` cool grey used for primary highlights such as borders.
-- `#fafafa` used for secondary text.
-- `#FFFFFF` white used for a clean and crisp background to not obscure the colours of the flags.
+- `rgba(210, 204, 189, 0.736)` was used for the background overlay.
+- `#FFFFFF` white was used for the answer buttons so the writing was clearly legible with no problems for those with colour blindness or difficulty reading.
+- `#4cbb17` kelly green was used as the 'correct' colour indicator.
+- `#b22222` crimson was used as the 'incorrect' colour indicator.
+
+
 
 I used [coolors.co](https://coolors.co/171212-8d99ae-ffffff-473198-090c9b) to generate my colour palette, I locked in licorice and white as I knew I wanted these as the main colours to the site and then ran through the simulations to generate alternative colours that may complement as contrast but I knew that a majority of the site would be white with black text.
 
 <details>
 <summary>Click for Coolors screenshot</summary>
 
-![screenshot](images/coolors-screenshot.png)
+![screenshot](img/screenshots/coolors-screenshot.png)
 
 </details><br>
 
@@ -94,8 +97,6 @@ I used [coolors.co](https://coolors.co/171212-8d99ae-ffffff-473198-090c9b) to ge
 - As a key part of the game was for users to read the options available to them, it was imperitive that a clean legible font was used suitable for all users to clearly read the text on the website especially when using a mobile device.
 
 - [Nunito](https://fonts.google.com/specimen/Nunito) was used for all text within the site.
-
-- [Font Awesome](https://fontawesome.com) icons were used to provide inconography to the website where appropriate.
 
 ## User Stories
 
@@ -118,9 +119,9 @@ I used [coolors.co](https://coolors.co/171212-8d99ae-ffffff-473198-090c9b) to ge
 
 | Feature | Description | Screenshot |
 | :---: | :---: | :---: |
-| **About Name That Flag** | Although 'Name That Flag' should be obvious upon accessing the site, I wanted to create a little description for users so there was no doubt what the site was for. | ![screenshot](documentation/features/modal-button.png) |
-| **Name That Flag Game Area** | The game is designed to be viewed in one screen. For example, on a mobile sized screen you can see the flag, the answer options and the score without having to scroll. | ![screenshot](documentation/features/modal.png) |
-| **Answer Buttons** | The buttons are designed in a way that the user knows they are to click on them to select their answer. | ![screenshot](documentation/features/input-box.png) |
+| **About Name That Flag** | Although 'Name That Flag' should be obvious upon accessing the site, I wanted to create a page that clearly met the standardised and accepted format of a multiple choice quiz. | ![screenshot](img/screenshots/return-user-screen.png) |
+| **Name That Flag Game Area** | The game is designed to be viewed in one screen. For example, on a mobile sized screen you can see the flag, the answer options and the score without having to scroll. | ![screenshot](img/screenshots/iphone-screenshot-main.PNG) |
+| **Answer Buttons** | The buttons are designed in a way that the user knows they are to click on them to select their answer by a pointer appearing when the cursor is over the answers. | ![screenshot](img/screenshots/user-cursor.png) |
 
 
 ### Future Features
@@ -136,15 +137,12 @@ I used [coolors.co](https://coolors.co/171212-8d99ae-ffffff-473198-090c9b) to ge
 
 - [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
 - [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
-- [CSS :root variables](https://www.w3schools.com/css/css3_variables.asp) used for reusable styles throughout the site.
-- [CSS Buttons](https://www.w3schools.com/css/css3_buttons.asp) used for creating styled buttons.
+- [CSS :root variables](https://www.w3schools.com/css/css3_variables.asp) used for reusable colours throughout the site.
 - [JavaScript](https://www.javascript.com) used for user interaction on the site.
-- [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [GitHub](https://github.com) used for secure online code storage.
 - [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
 - [VSCode](https://code.visualstudio.com/) used for local IDE for development.
 - [Google Fonts](https://fonts.google.com/) used to search a suitable font and obtain a download link for that font.
-- [Font Awesome](https://fontawesome.com/) used to add GitHub icon to the footer and modal and search icon to the search button.
 
 ## Testing
 
@@ -154,11 +152,11 @@ For all testing, please refer to the [TESTING.md](TESTING.md) file.
 
 The site was deployed to GitHub Pages. The steps to deploy are as follows:
 
-- In the [GitHub repository](https://github.com/Georgina90-x/Project-2), navigate to the Settings tab.
+- In the [GitHub repository](https://github.com/Georgina90-x/Name-That-Flag), navigate to the Settings tab.
 - From the source section drop-down menu, select the **Main** Branch, then click "Save".
 - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found [here]( https://georgina90-x.github.io/Project-2/).
+The live link can be found [here](https://georgina90-x.github.io/Name-That-Flag/).
 
 ### Local Deployment
 
@@ -168,22 +166,18 @@ This project can be cloned or forked in order to make a local copy on your own s
 
 You can clone the repository by following these steps:
 
-1. Go to the [GitHub repository](https://github.com/Georgina90-x/Project-2).
+1. Go to the [GitHub repository](https://github.com/Georgina90-x/Name-That-Flag).
 2. Locate the Code button above the list of files and click it.
 3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard.
 4. Open Git Bash or Terminal.
 5. Change the current working directory to the one where you want the cloned directory.
 6. In your IDE Terminal, type the following command to clone my repository:
-    - `git clone https://github.com/Georgina90-x/Project-2`
+    - `git clone https://github.com/Georgina90-x/Name-That-Flag`
 7. Press Enter to create your local clone.
-
-### Local vs Deployment
-
-There are no notable differences between my local developed site and the GitHub pages deployed site.
 
 ## Credits
 
-The following are credits to various people and technologies that have directly or otherwise assisted in the creation of the Your Weather site.
+The following are credits to various people and technologies that have directly or otherwise assisted in the creation of the Name That Flag site.
 
 ### Content and Code
 
@@ -214,23 +208,6 @@ The following are credits to various people and technologies that have directly 
 | [Japan Flag](https://en.wikipedia.org/wiki/Japan#/media/File:Flag_of_Japan.svg) | Flag
 | [Mexico Flag](https://en.wikipedia.org/wiki/Mexico#/media/File:Flag_of_Mexico.svg) | Flag
 | [Australia Flag](https://en.wikipedia.org/wiki/Australia#/media/File:Flag_of_Australia_(converted).svg) | Flag
-
-
-
-
-
-
-
-
-
-
-
-
-### Media
-
-| Source | Location | Type | Notes |
-| --- | --- | --- | --- |
-| [Unsplash](https://source.unsplash.com/random?landscape) | Main changing background | image | Landscape image selection |
 
 ### Acknowledgements
 
