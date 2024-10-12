@@ -83,13 +83,9 @@ function questionNum(num) {
 function addQuestionData(obj, count) {
     if (currentIndex < count) {
         flagImg.src = `img/${obj.img}`;
-        //Create Options
         flagLis.forEach((li, i) => {
-            //Give each Li a dynamic Id
             li.id = `answer_${i+1}`;
-            //Create for Each Li a dynamic data-attribut
             li.dataset.answer = obj[`options`][i];
-            //Insert the Option in the li
             li.innerHTML = obj[`options`][i];
         });
     }
@@ -125,7 +121,7 @@ btnNewGame.addEventListener("click", () => {
     window.location.reload();
 });
 
-btnChallenge.addEventListener("click"), () => {
-    startTimer(15); //calling startTimer function
-    startTimerLine(0); //calling startTimerLine function
-}
+// btnChallenge.addEventListener("click"), () => {
+    //startTimer(15); //calling startTimer function
+    //startTimerLine(0); //calling startTimerLine function
+//}
