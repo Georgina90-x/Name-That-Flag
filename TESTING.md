@@ -54,11 +54,10 @@ I have tested Your Weather on the following browsers to check for compatibility 
 
 | Browser | Main | Score |
 | :---: | :---: | :---: |
-| [Chrome](https://www.google.com/chrome) | ![screenshot](img/flag-germany.svg) | ![screenshot](documentation/browsers/chrome/chrome-modal.png) | ![screenshot](documentation/browsers/chrome/chrome-displayed-c.png) | ![screenshot](documentation/browsers/chrome/chrome-displayed-f.png) | Works as expected |
-| [Firefox (Developer Edition)](https://www.mozilla.org/firefox/developer) | ![screenshot](documentation/browsers/firefox-dev/firefox-dev-main.png) | ![screenshot](img/flag-germany.svg) | ![screenshot](documentation/browsers/firefox-dev/firefox-dev-displayed-c.png) | ![screenshot](documentation/browsers/firefox-dev/firefox-dev-displayed-f.png) | Works as expected |
-| [Edge](https://www.microsoft.com/edge)| ![screenshot](documentation/browsers/edge/edge-main.png) | ![screenshot](img/flag-germany.svg) | ![screenshot](documentation/browsers/edge/edge-displayed-c.png) | ![screenshot](documentation/browsers/edge/edge-displayed-f.png) | Works as expected |
-| [Safari](https://support.apple.com/downloads/safari) | ![screenshot](documentation/browsers/safari/safari-main.png) | ![screenshot](documentation/browsers/safari/safari-modal.png) | ![screenshot](documentation/browsers/safari/safari-displayed-c.png) | ![screenshot](documentation/browsers/safari/safari-displayed-f.png) | Works as expected |
-| [Brave](https://brave.com/download) | ![screenshot](documentation/browsers/brave/brave-main.png) | ![screenshot](documentation/browsers/brave/brave-modal.png) | ![screenshot](documentation/browsers/brave/brave-displayed-c.png) | ![screenshot](documentation/browsers/brave/brave-displayed-f.png) | Works as expected |
+| [Chrome](https://www.google.com/chrome) | ![screenshot](img/screenshots/chrome-main.png) | ![screenshot](img/screenshots/chrome-score.png) | Works as expected |
+| [Firefox](https://www.mozilla.org/firefox/) | ![screenshot](img/screenshots/firefox-main.png) | ![screenshot](img/screenshots/firefox-score.png) | Works as expected |
+| [Edge](https://www.microsoft.com/edge)| ![screenshot](img/screenshots/microsoft-edge-main.jpg) | ![screenshot](img/screenshots/microsoft-edge-score.jpg) | Works as expected |
+| [Safari](https://support.apple.com/downloads/safari) | ![screenshot](img/screenshots/safari-main.png) | ![screenshot](img/screenshots/safari-score.png) | Works as expected |
 
 ## Responsiveness
 
@@ -71,7 +70,7 @@ I have tested my deployed project on multiple devices to check for responsivenes
 | :---: | :---: | :---: | :---: |
 | Mobile (iPhone 15 Pro) | ![screenshot](img/screenshots/iphone-screenshot-main.PNG) | ![screenshot](img/screenshots/iphone-screenshot-score.PNG) | Appeared as expected |
 | Tablet (DevTools - iPad Air) | ![screenshot](img/screenshots/ipad-screenshot-main.PNG) | ![screenshot](img/screenshots/ipad-screenshot-score.PNG) | Appeared as expected |
-| 15" Laptop | ![screenshot](documentation/responsiveness/15-inch-laptop/mdpi/laptop-main.png) | ![screenshot](documentation/responsiveness/15-inch-laptop/mdpi/laptop-modal.png) |
+| 15" Laptop | ![screenshot](img/screenshots/google-chrome-main.jpg) | ![screenshot](img/screenshots/google-chrome-score.jpg) |
 </details>
 
 ## Accessibility
