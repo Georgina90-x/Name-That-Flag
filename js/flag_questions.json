@@ -110,12 +110,12 @@
         "right_answer": "Albania"
     },
     {
-        "img": "flag-algeria.png",
+        "img": "flag-algeria..svg.png",
         "options": ["Poland", "Algeria", "Scotland"],
         "right_answer": "Algeria"
     },
     {
-        "img": "flag-andorra.svg.png",
+        "img": "flag-andorra.png",
         "options": ["Lebanon", "Andorra", "Sweden"],
         "right_answer": "Andorra"
     },
