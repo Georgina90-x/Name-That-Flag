@@ -19,6 +19,8 @@ Return back to the [README.md](README.md) file.
 
 - [Accessibility](#accessibility)
 
+- [Defensive Programming](#defensive-programming)
+
 - [User Story Testing](#user-story-testing)
 </details>
 
@@ -80,6 +82,26 @@ I have tested my deployed project using the [WAVE](https://wave.webaim.org/) web
 | Page | Summary | Details | Contrast | Notes |
 | :---: | :---: | :---: | :---: | :---: |
 | Main | ![screenshot](img/screenshots/wave-summary.png) | ![screenshot](img/screenshots/wave-details.png) | ![screenshot](img/screenshots/wave-contrast.png) | The error is due to there being no alt information for the image, due to the nature of the quiz a user with limited to no eyesight would find this game difficult to play. There is also a missing H2 as I wanted a smaller sized heading. |
+
+## Defensive Programming
+
+Defensive programming was manually tested with the below user acceptance testing:
+
+<details>
+<summary>Click for report</summary>
+
+| Page | Expectation | Test | Result | Fix | Screenshot |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| Main | | | | | |
+| | Name That Flag is designed so that when you open the page the full screen shows the flag image and the answers as well as a score/question area.| Tested the feature by clicking Name That Flag. | The feature behaved as expected. | Test concluded and passed. | ![screenshot](img/screenshots/chrome-main.png) |
+| | When a user hovers over one of the answer buttons the cursor becomes a pointer and the answer changes to a black colour to indicate what they are about to select. | Tested the feature by hovering over the answers.| The feature behaved as expected, the cursor changed and the buttons highlighted. | Test concluded and passed. | ![screenshot](img/screenshots/cursor.jpg) |
+| | Once an answer is selected and clicked the button will change colour to red or green to indicate success or failure. The score will also count when successfull. | Tested the feature by selecting both correct and incorrect answers. And checking the score updated. | The feature behaved as expected. | Test concluded and passed. | [![alt text](img/screenshots/user-success-fail.mp4)]
+|
+| | The next question is supposed to automatically load once a choice has been made. | Tested the feature by selecting an answer and waiting for the next question. | The feature behaved as expected. |Test concluded and passed. | [![alt text](img/screenshots/user-success-fail.mp4)] |
+| | Once the quiz is complete, the screen should show the score of correct answers and incorrect answers. | Tested the feature by clicking through to the end of the 10 questions. | The feature behaved as expected. |Test concluded and passed. | ![screenshot]() |
+| | Once the game is completed a 'new game' button should appear so the user can attempt the quiz again. | Tested the feature by clicking through the quiz and then selecting the new game button. | The feature behaved as expected. |Test concluded and passed. | ![screenshot](img/screenshots/firefox-score.png) |
+
+</details>
 
 ## User Story Testing
 
