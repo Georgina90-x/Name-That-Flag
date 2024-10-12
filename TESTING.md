@@ -42,11 +42,11 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 ### JavaScript
 
-I have used the recommended [Code Beautify](https://codebeautify.org/jsvalidate) to validate all of my JS files.
+I have used the recommended [JSlint](https://codebeautify.org/jsvalidate) to validate all of my JS files.
 
 | File | Screenshot | Notes |
 | :---: | :---: | :---: |
-| main.js | ![screenshot](img/screenshots/javascript-validator.png) | Unexpected let, needed for count function |
+| main.js | ![screenshot](img/screenshots/jslint-test.png) | Line cannot be shortened and still reads clear. Parentheses not needed. |
 
 ## Browser Compatibility
 
