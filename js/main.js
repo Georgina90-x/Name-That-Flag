@@ -1,4 +1,3 @@
-//Select Elements
 let countSpan = document.querySelector(".count span");
 let flagImgDiv = document.querySelector(".flag-img");
 let flagImg = document.querySelector(".flag-img img");
@@ -10,23 +9,6 @@ let correctAns = document.querySelector(".score .right span");
 let incorrectAns = document.querySelector(".score .incorrect span");
 let btnNewGame = document.querySelector("#newGame");
 const timerElement = document.getElementById("time");
-
-let timeLeft=60;
-
-/** TIMER FUNCTION?
-function updateTimer() {
-    const minutes=Math.floor(timeLeft/30);
-    let seconds=timeLeft%30;
-    seconds=seconds<10?"0"+seconds:seconds;
-    timerElement.textContext= '${minutes}:${seconds}';
-
-    if (timeLeft===0) {
-        showResults();
-    }
-    else {
-        timeLeft--;
-    }
-} **/
 
 let currentIndex = 0;
 let rightAnswer = 0;
@@ -121,7 +103,3 @@ btnNewGame.addEventListener("click", () => {
     window.location.reload();
 });
 
-// btnChallenge.addEventListener("click"), () => {
-    //startTimer(15); //calling startTimer function
-    //startTimerLine(0); //calling startTimerLine function
-//}
