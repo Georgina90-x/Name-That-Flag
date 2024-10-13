@@ -248,6 +248,8 @@ The following are credits to various people and technologies that have directly 
 | [ Egypt Flag]( https://en.wikipedia.org/wiki/Egypt#/media/File:Flag_of_Egypt.svg)| Flag
 | [ Kenya Flag]( https://en.wikipedia.org/wiki/Kenya#/media/File:Flag_of_Kenya.svg)| Flag
 | [ Luxembourg Flag]( https://en.wikipedia.org/wiki/Luxembourg#/media/File:Flag_of_Luxembourg.svg)| Flag
+| [boderg](https://github.com/boderg/your-weather) | README | I used this example given to me by my mentor as the skeleton for my README.|
+| [Front End with Salimi](https://m.youtube.com/watch?v=GfRgpXvqudM) |
 
 
 
@@ -256,3 +258,4 @@ The following are credits to various people and technologies that have directly 
 
 - I would like to thank my tutor Jonathan Jacobson and my classmates Ethan Peters and Tyrone Tuazon for their assistance and support during this project.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for being an awesome and responsive support system during a unit I found incredibly challenging.
+
