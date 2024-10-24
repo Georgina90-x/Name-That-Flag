@@ -15,9 +15,19 @@
             <h1>Name That Flag</h1>
             <div class="box">
                 <h3>Score: <span></span></h3>
-                <a href="difficult.html">
-                    <button id="challenge">Challenge</button>
-                </a>
+                <style>
+                    p {
+                      text-align: center;
+                      font-size: 60px;
+                      margin-top: 0px;
+                    }
+                    </style>
+                    </head>
+                    <body onload="javascript:StartMyTimer()">
+                    
+                    <p id="TimerDisplay"></p>
+                    <button id="TimeoutTryAgain" onclick="TryAgain()" hidden="hidden">Try Again</button>
+                    </style>    
                 <div class="count">Question: <span></span></div>
             </div>
             <div class="flags">
@@ -30,6 +40,11 @@
                         <li></li>
                         <li></li>
                     </ul>
+                </div>
+                <div>
+                    <a href="index.html">
+                        <button id="goback">Go Back</button>
+                    </a>
                 </div>
                 <div class="score">
                     <h3 class="right">Your Correct Answers: <span></span></h3>
@@ -45,21 +60,9 @@
 </html>
 
 
-<!--
 
-<style>
-    p {
-      text-align: center;
-      font-size: 60px;
-      margin-top: 0px;
-    }
-    </style>
-    </head>
-    <body onload="javascript:StartMyTimer()">
-    
-    <p id="TimerDisplay"></p>
-    <button id="TimeoutTryAgain" onclick="TryAgain()" hidden="hidden">Try Again</button>
-    -->
+
+
 
     
    
