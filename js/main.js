@@ -18,9 +18,9 @@ function getQuestions() {
     myRequest.onreadystatechange = function () {
         if (this.readyState === 4 && this.status === 200) {
             let questions = JSON.parse(this.responseText);
-            let qCount = 10;
+            let qCount = 5;
             questionNum(qCount);
-    questions = questions.sort(() => Math.random() - Math.random()).slice(0, 10);
+    questions = questions.sort(() => Math.random() - Math.random()).slice(0, 5);
 
             addQuestionData(questions[currentIndex], qCount);
 
@@ -123,13 +123,12 @@ function StartMyTimer() {
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
         
       // Output the result in an element with id="TimerDisplay"
-      document.getElementById("TimerDisplay").innerHTML = days + "d " + hours + "h "
-      + minutes + "m " + seconds + "s ";
+      document.getElementById("TimerDisplay").innerHTML = seconds + "s";
         
       // If the count down is over, write some text 
       if (distance < 0) {
         clearInterval(x);
-        document.getElementById("TimerDisplay").innerHTML = "Time Out";
+        document.getElementById("TimerDisplay").innerHTML = "Times Up";
         let element = document.getElementById("TimeoutTryAgain");
         let hidden = element.getAttribute("hidden");
         element.removeAttribute("hidden");
@@ -144,4 +143,5 @@ function StartMyTimer() {
         element.setAttribute("hidden", "hidden");
         StartMyTimer();
     }
+
 

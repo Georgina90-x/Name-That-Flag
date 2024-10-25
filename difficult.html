@@ -9,25 +9,14 @@
     <title>Name That Flag</title>
 </head>
 
-<body>
+<body onload="javascript:StartMyTimer()">
     <main>
         <div class="container">
             <h1>Name That Flag</h1>
             <div class="box">
                 <h3>Score: <span></span></h3>
-                <style>
-                    p {
-                      text-align: center;
-                      font-size: 60px;
-                      margin-top: 0px;
-                    }
-                    </style>
-                    </head>
-                    <body onload="javascript:StartMyTimer()">
-                    
                     <p id="TimerDisplay"></p>
-                    <button id="TimeoutTryAgain" onclick="TryAgain()" hidden="hidden">Try Again</button>
-                    </style>    
+                    <button id="TimeoutTryAgain" onclick="TryAgain()" hidden="hidden">Try Again</button>  
                 <div class="count">Question: <span></span></div>
             </div>
             <div class="flags">
@@ -43,7 +32,7 @@
                 </div>
                 <div>
                     <a href="index.html">
-                        <button id="goback">Go Back</button>
+                        <button id="goback">Home</button>
                     </a>
                 </div>
                 <div class="score">
