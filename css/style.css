@@ -219,7 +219,11 @@ p {
     padding-bottom: 2rem;
 }
 
-#goback {
+.tryagain-button {
+    padding-bottom: 2rem;
+}
+
+#gobacktimer {
     border-radius: 10px;
     background-color: var(--licorice);
     padding: 1.5rem;
@@ -245,7 +249,7 @@ p {
 
 .box #TimerDisplay {
     text-align: center;
-    font-size: 60px;
+    font-size: 2rem;
     margin-top: 0px;
 }
 
