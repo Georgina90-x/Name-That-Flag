@@ -128,6 +128,9 @@ function StartMyTimer() {
       // If the count down is over, write some text 
       if (distance < 0) {
         clearInterval(x);
+        var currentIndex = 5;
+        showResults(5);
+
         document.getElementById("TimerDisplay").innerHTML = "Times Up";
         let element = document.getElementById("TimeoutTryAgain");
         let hidden = element.getAttribute("hidden");
