@@ -65,6 +65,14 @@ h3 {
     padding: 2rem;
 }
 
+h2 {
+    font-size: 1.5rem;
+    padding: 2rem 0;
+    color: var(--licorice);
+    text-align: center;
+}
+
+
 #challenge {
     border-radius: 10px;
     background-color: var(--licorice);
@@ -201,6 +209,10 @@ h3 {
     font-weight: bold;
     letter-spacing: .1rem;
     
+}
+
+.challenge-button {
+    padding-bottom: 2rem;
 }
 
 #goback {

@@ -142,6 +142,10 @@ function StartMyTimer() {
         let hidden = element.getAttribute("hidden");
         element.setAttribute("hidden", "hidden");
         StartMyTimer();
+
+        setTimeout(() => {
+            showResults(qCount);
+        }, 1002);
     }
 
 
